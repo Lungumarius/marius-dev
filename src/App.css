@@ -26,13 +26,14 @@
 .transparent-header nav ul {
   list-style: none;
   margin: 0;
-  padding: 0;
+  padding: 1.5rem;
   display: flex;
   justify-content: flex-end;
 }
 
 .transparent-header nav li {
   margin-left: 20px;
+  padding-left: 9vw;
 }
 
 .transparent-header nav li:first-child {

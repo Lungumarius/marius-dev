@@ -1,19 +1,14 @@
 import './App.css';
-import Header from '@mui/material';
+import {Header} from './components/Header/Header'
+import {Footer} from './components/Footer/Footer'
+import {Body} from './components/Body/Body'
 
 function App() {
   return (
     <div className="App">
-      
-      <header class="transparent-header">
-        <nav>
-          <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Contact</a></li>
-          </ul>
-        </nav>
-      </header>
+      <Header></Header>
+      <Body></Body>
+      <Footer></Footer>
     </div>
   );
 }
